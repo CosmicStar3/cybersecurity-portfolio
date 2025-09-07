@@ -4,6 +4,8 @@ This repo showcases my journey toward a Cybersecurity Analyst role through hands
 
 ## 📂 Contents
 - **Labs** → SOC-style investigations (Splunk, Sentinel, log analysis).  
+    - [Wireshark HTTPS Traffic Analysis](lab/wireshark-https/notes.md)
+
 - **Detections** → Queries and rules I’ve built (SPL, KQL, Sigma).  
 
 ## 🚀 Current Focus
