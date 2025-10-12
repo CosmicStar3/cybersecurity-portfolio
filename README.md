@@ -2,11 +2,15 @@
 
 This repo showcases my journey toward a Cybersecurity Analyst role through hands-on labs and detection rules.  
 
+
 ## 📂 Contents
-- **Labs** → SOC-style investigations (Splunk, Sentinel, log analysis).  
-    - [Wireshark HTTPS Traffic Analysis](lab/wireshark-https/notes.md)
+
+- **Labs** → SOC-style investigations (Splunk, Sentinel, log analysis,Wireshark).  
+  - [Wireshark HTTPS Traffic Analysis](labs/wireshark/Https_analysis/README.md)  
+  - [Malware Traffic Analysis - massfriction.com](labs/wireshark/Malware_analysis/README.md)
 
 - **Detections** → Queries and rules I’ve built (SPL, KQL, Sigma).  
+
 
 ## 🚀 Current Focus
 - SIEM analysis with Splunk & Sentinel  
