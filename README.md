@@ -8,6 +8,7 @@ This repo showcases my journey toward a Cybersecurity Analyst role through hands
 - **Labs** → SOC-style investigations (Splunk, Sentinel, log analysis,Wireshark).  
   - [Wireshark HTTPS Traffic Analysis](Labs/wireshark/Https_analysis/README.md)  
   - [Malware Traffic Analysis - massfriction.com](Labs/wireshark/Malware_analysis/README.md)
+  - [Nmap Localhost Vulnerability Assessment](Labs/nmap-vulnerability-scan/README.md)
 
 - **Detections** → Queries and rules I’ve built (SPL, KQL, Sigma).  
 
