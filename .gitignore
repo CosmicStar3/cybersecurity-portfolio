@@ -1,0 +1,7 @@
+# Ignore any raw Nmap scan outputs
+Labs/nmap-vulnerability-scan/
+*.nmap
+*.gnmap
+*.xml
+*.txt
+*.log
