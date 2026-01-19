@@ -1,0 +1,6 @@
+index=main EventID=1 Image="*powershell.exe*"
+| rex field=_raw "<Data Name='ParentImage'>(?<ParentImage>[^<]+)</Data>"
+| rex field=_raw "<Data Name='User'>(?<User>[^<]+)</Data>"
+| search ParentImage="*cmd.exe"
+| table _time User ParentImage Image CommandLine
+| sort -_time

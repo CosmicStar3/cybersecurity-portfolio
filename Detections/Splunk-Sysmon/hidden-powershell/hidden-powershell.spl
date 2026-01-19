@@ -1,0 +1,8 @@
+index=main EventID=1 Image="*powershell.exe*"
+| rex field=_raw "<Data Name='ParentImage'>(?<ParentImage>[^<]+)</Data>"
+| rex field=_raw "<Data Name='User'>(?<User>[^<]+)</Data>"
+| search CommandLine="*-w hidden*" OR CommandLine="*-WindowStyle Hidden*"
+| search NOT ParentImage="*CodeSetup*"
+| search NOT ParentImage="*Appx*"
+| table _time User ParentImage Image CommandLine
+| sort -_time
