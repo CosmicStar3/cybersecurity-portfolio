@@ -1,0 +1,19 @@
+### Failed SSH Login Attempts
+index=main sourcetype=linux_secure "Failed password"
+| stats count by user, src_ip
+| where count > 5
+
+### Successful SSH Logins
+index=main sourcetype=linux_secure "Accepted password"
+| table _time user src_ip
+
+### Admin SSH Logins
+index=main sourcetype=linux_secure "Accepted password"
+| search user=adminuser OR user=root
+| table _time user src_ip
+
+### After-Hours SSH Logins
+index=main sourcetype=linux_secure "Accepted password"
+| eval hour=strftime(_time,"%H")
+| where hour < 9 OR hour > 18
+| table _time user src_ip hour
