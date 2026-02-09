@@ -23,5 +23,3 @@ This repo showcases my journey toward a Cybersecurity Analyst role through hands
 - Building detection queries for common attack scenarios  
 - Prepping for CompTIA Security+  
 
-## 🌐 Connect
-- LinkedIn: [https://www.linkedin.com/in/sowndheriya-nickson-sns/]
