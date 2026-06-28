@@ -11,7 +11,7 @@ This repo showcases my journey toward a Cybersecurity Analyst role through hands
   - [Malware Traffic Analysis - massfriction.com](Labs/wireshark/Malware_analysis/README.md)
   - [Nmap Localhost Vulnerability Assessment](Labs/nmap-vulnerability-scan/README.md)
   - [Burp Web Application Security Assessment](Labs/webapp-scan-burp/README.md)
-  - [Linux SSH Brute-Force Detection & Incident Response using Splunk](Labs/linux-ssh-bruteforce-splunk/README.md)
+  - [Linux SSH Brute-Force Detection & Incident Response using Splunk](Labs/Linux-ssh-bruteforce-splunk/README.md)
 
 - **Detections** → Queries and rules I’ve built (SPL, KQL, Sigma). 
   - [Windows Endpoint Detection Engineering with Sysmon & Splunk](detections/Splunk-Sysmon/README.md)
