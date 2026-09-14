@@ -1,6 +1,6 @@
 # Cybersecurity Portfolio
 
-Software Engineer with experience in API testing, AI agent validation, and cybersecurity hands-on projects. My interests include AI Security, Cloud Security, Network Security, and Secure AI Agents.
+Software Engineer with experience in API testing, AI agent validation, and cybersecurity hands-on projects. My interests include AI Security, Cloud Security, Network Security, and Secure AI Agents. This portfolio showcases hands-on security projects, detection engineering work, and AI security research activities.
 
 ## Highlights
 
@@ -8,8 +8,8 @@ Software Engineer with experience in API testing, AI agent validation, and cyber
 - Tested 15+ enterprise REST services
 - Executed 1,000+ functional test scenarios
 - Designed 170+ AI-agent security test cases
-- Completed 50+ TryHackMe rooms
 - Published undergraduate research in IoT-based V2V Communication using Li-Fi
+- Completed 50+ TryHackMe rooms
 
 ## Areas of Focus
 
@@ -29,7 +29,7 @@ Software Engineer with experience in API testing, AI agent validation, and cyber
 
 **Programming:** Java, Python
 
-## Hands-On Security Projects
+## Featured Security Projects
 
 | Project | Focus Area |
 |----------|------------|
@@ -40,6 +40,13 @@ Software Engineer with experience in API testing, AI agent validation, and cyber
 | [Nmap Vulnerability Assessment](Labs/nmap-vulnerability-scan/README.md) | Vulnerability Assessment |
 | [Burp Web Application Security Assessment](Labs/webapp-scan-burp/README.md) | Web Security |
 
+## AI Security
+
+Current work focuses on evaluating the security of AI agents and large language model applications, including prompt injection attacks, instruction override attempts, data exposure risks, and secure AI agent design.
+
+Upcoming Project:
+- AI Agent Prompt Injection Study
+
 ## Certifications
 
 - SC-900: Microsoft Security, Compliance, and Identity Fundamentals
@@ -47,10 +54,13 @@ Software Engineer with experience in API testing, AI agent validation, and cyber
 
 ## Research
 
+## Research
+
 **Publication:** IoT Based V2V Communication Using Li-Fi Technology (YMER Journal, 2024)
 
-## Current Focus
-
-- AI Agent Security
-- Prompt Injection Testing
-- Security Research
+## Research Interests:
+- AI Security
+- Secure AI Agents
+- Prompt Injection Defense
+- Detection Engineering
+- Cloud Security
