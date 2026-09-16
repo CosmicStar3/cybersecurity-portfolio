@@ -18,7 +18,7 @@ Current Capabilities: Basic conversational support; no knowledge sources, extern
 Initial Test Results: 6/6 test questions answered successfully - baseline functional behavior is working as expected. No obvious hallucinations observed. VPN query triggered the built-in Escalation topic.
 
 Run Report:
-24/08/2026 - Testing 1: After Agent creation and Addition of first set of Instructions [scope, boundaries, unknown]
+Testing 1: After Agent creation and Addition of first set of Instructions [scope, boundaries, unknown]
 
 | Test | Prompt | Answered | Hallucination | Notes |
 |---|---|---|---|---|
